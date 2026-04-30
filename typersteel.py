@@ -10,9 +10,9 @@ def main(
     Говорит "Привет" пользователю, опционально используя фамилию и формальный стиль.
     """
     if formal:
-        print(f"Добрый день, {name} {lastname}!")
+        print(f"Good day, {name} {lastname}!")
     else:
-        print(f"Привет, {name}!")
+        print(f"Hi there, {name}!")
 
 if __name__ == "__main__":
     typer.run(main)
