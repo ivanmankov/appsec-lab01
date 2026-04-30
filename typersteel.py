@@ -1,3 +1,4 @@
+# typersteel.py — CLI приветствие на typer
 import typer
 
 def main(
